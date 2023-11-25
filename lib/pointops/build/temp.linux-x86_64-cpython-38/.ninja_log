@@ -21,3 +21,8 @@
 3626	62254	1668566704	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/knnquerypoint/knnquerypoint_cuda_kernel.o	30f479e857f1d61d
 3651	62456	1668566704	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda_kernel.o	589060f9c198f79e
 3650	70311	1668566714	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/pointops_api.o	7c00547ea71be0bc
+1	23678	1700909807732669357	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/assomatrix/assomatrix_cuda_kernel.o	e22492151b928809
+2	24080	1700909808132669373	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/assomatrix_float/assomatrix_float_cuda_kernel.o	5f1505839a710b3a
+2	24649	1700909808704669395	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/assomatrix_label/assomatrix_label_cuda_kernel.o	2068e2e6447bd0dd
+1	25139	1700909809192669414	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/assofixp2c_weight/assofixp2c_weight_cuda_kernel.o	b58ee70ba8e7876c
+1	25748	1700909809804669438	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/assofixp2c/assofixp2c_cuda_kernel.o	a883e960db8651f5

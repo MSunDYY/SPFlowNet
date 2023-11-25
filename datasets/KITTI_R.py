@@ -9,7 +9,7 @@ import sys, os
 import os.path as osp
 import numpy as np
 import glob
-
+import visualize
 import torch.utils.data as data
 
 __all__ = ['KITTI_R']
@@ -88,6 +88,7 @@ class KITTI_R(data.Dataset):
 
             pos1 = pos1[sample_idx1, :]
             pos2 = pos2[sample_idx2, :]
+
             flow = np.zeros_like(pos1)
             
             norm1 = np.ones_like(pos1)

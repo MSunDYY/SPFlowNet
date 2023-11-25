@@ -1,14 +1,14 @@
 #include <torch/serialize/tensor.h>
 #include <vector>
-#include <THC/THC.h>
+//#include <THC/THC.h>
 #include <ATen/cuda/CUDAContext.h>
-
+#include <ATen/cuda/CUDAEvent.h>
 #include "assomatrix_cuda_kernel.h"
 
-extern THCState *state;
+//extern THCState *state;
 
-#define CHECK_CUDA(x) AT_CHECK(x.type().is_cuda(), #x, " must be a CUDAtensor ")
-#define CHECK_CONTIGUOUS(x) AT_CHECK(x.is_contiguous(), #x, " must be contiguous ")
+#define CHECK_CUDA(x) TORCH_CHECK(x.type().is_cuda(), #x, " must be a CUDAtensor ")
+#define CHECK_CONTIGUOUS(x) TORCH_CHECK(x.is_contiguous(), #x, " must be contiguous ")
 #define CHECK_INPUT(x) CHECK_CUDA(x);CHECK_CONTIGUOUS(x)
 
 
@@ -22,7 +22,7 @@ void assomatrix_cuda(int b, int n, int m, int ks, at::Tensor idx_c_tensor, at::T
     int *idx = idx_tensor.data<int>();
     int *cnt = cnt_tensor.data<int>();
 
-    cudaStream_t stream = THCState_getCurrentStream(state);
-
+//    cudaStream_t stream = THCState_getCurrentStream(state);
+    cudaStream_t stream = at::cuda::getCurrentCUDAStream();
     assomatrix_cuda_launcher(b, n, m, ks, idx_c, cid, idx, cnt, stream);
 }

@@ -1,0 +1,8 @@
+# ninja log v5
+2	24568	1700898900212244739	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-310/src/assomatrix_label/assomatrix_label_cuda_kernel.o	fa340ad0786a7b03
+1	25157	1700898900804244762	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-310/src/assomatrix_float/assomatrix_float_cuda_kernel.o	ae5fd44321bb5b4d
+1	26151	1700898901796244800	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-310/src/assomatrix/assomatrix_cuda_kernel.o	faf9714dbab6cbc8
+1	28208	1700898903856244880	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-310/src/assofixp2c/assofixp2c_cuda_kernel.o	e6b2937cc9138f44
+1	28587	1700898904232244895	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-310/src/assofixp2c_weight/assofixp2c_weight_cuda_kernel.o	1af7735013a86b01
+1	20293	1700898929384245874	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-310/src/featuredistribute/featuredistribute_cuda_kernel.o	68e3afc95cfcc05a
+1	20435	1700898929528245880	/home/msun/pan1/pointcloud/SPFlowNet/lib/pointops/build/temp.linux-x86_64-cpython-310/src/ballquery/ballquery_cuda_kernel.o	c7d551d83d124aad

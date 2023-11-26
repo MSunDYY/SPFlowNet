@@ -1,7 +1,7 @@
 # Data args
 num_points: 2048
-dataset: WAYMO
-data_root: ./data/waymo/ground_truth
+dataset: KITTI_R
+data_root: ./data/kitti
 
 exp_params:
   gpu: "0"

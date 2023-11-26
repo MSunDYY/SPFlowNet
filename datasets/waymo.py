@@ -43,6 +43,7 @@ class WAYMO(data.Dataset):
             # self.datapath_PC2 = datapath['List_train_pc2']
             datapath_all=os.listdir(data_root)
             self.datapath=[[datapath_all[i],datapath_all[i+1]] for i in range(0,len(datapath_all),2)]
+
         else:
             datapath_all=os.listdir(data_root)
             self.datapath=[[datapath_all[i],datapath_all[i+1]] for i in range(0,len(datapath_all),2)]

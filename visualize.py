@@ -2,7 +2,7 @@ import open3d
 import numpy as np
 import torch
 
-def visualize(points, file_name=None, gt_boxes=None, gt_labels=None, ref_boxes=None, ref_labels=None, ref_scores=None,
+def draw_scenes(points, file_name=None, gt_boxes=None, gt_labels=None, ref_boxes=None, ref_labels=None, ref_scores=None,
                 point_colors=None,
                 draw_origin=True):
     if isinstance(points, torch.Tensor):

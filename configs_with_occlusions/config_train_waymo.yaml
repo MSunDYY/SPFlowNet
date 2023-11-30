@@ -5,7 +5,7 @@ data_root: ./data/waymo/ground_truth
 
 exp_params:
   gpu: "0"
-  multi_gpu: null #null "0,1"
+  multi_gpu: "0" #null "0,1"
   model_name: SPFlowNet
   seed: 1
   batch_size: 1
